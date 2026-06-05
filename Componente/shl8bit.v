@@ -4,7 +4,6 @@ module shl8bit(
     output [7:0] out     // Rezultatul
 );
 
-    // Shiftare logica la stanga (baga zero-uri in dreapta)
     assign out = a << sa;
 
 endmodule

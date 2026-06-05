@@ -10,14 +10,12 @@ module booth_dp (
     output qm1,           
     output [15:0] Prod    
 );
-    // ====================================================
-    // FIRELE (Cablurile interne)
-    // ====================================================
-    // Iesirile din registre (ce avem curent salvat)
+    
+    
     wire [7:0] out_A, out_M, out_Q;
     wire out_Qm1;
 
-    // Intrarile in registre (ce urmeaza sa salvam)
+    
     wire [7:0] in_A, in_M, in_Q;
     wire in_Qm1;
 
@@ -25,9 +23,7 @@ module booth_dp (
     wire [7:0] w_add, w_sub, alu_out;
     wire [7:0] a_logic_shift, q_logic_shift;
 
-    // ====================================================
     // 1. UNITATILE DE CALCUL (ALU Structural)
-    // ====================================================
     adder8bit U_ADD (.a(out_A), .b(out_M), .cin(1'b0), .sum(w_add), .cout());
     subtractor8bit U_SUB (.a(out_A), .b(out_M), .diff(w_sub), .bout());
 
@@ -37,9 +33,7 @@ module booth_dp (
         .sel(alu_sel), .y(alu_out)
     );
 
-    // ====================================================
-    // 2. SHIFTERELE (Din modulele tale)
-    // ====================================================
+    // 2. SHIFTERELE
     shr8bit SHR_A (.a(alu_out), .sa(3'd1), .out(a_logic_shift));
     wire [7:0] a_arith_shifted = {alu_out[7], a_logic_shift[6:0]}; // Pastreaza semnul
 
@@ -48,9 +42,7 @@ module booth_dp (
     
     wire qm1_shifted = out_Q[0]; // Intra bit din Q
 
-    // ====================================================
     // 3. RETEAUA DE MULTIPLEXOARE (Ce bagam in registre?)
-    // ====================================================
     wire [7:0] a_mux_shift_out, q_mux_shift_out;
     wire qm1_mux_shift_out;
 
@@ -64,22 +56,15 @@ module booth_dp (
     mux2to1_8bit MUX_Q_INIT  (.d0(q_mux_shift_out),   .d1(Q_in), .sel(init), .y(in_Q));
     mux2to1_1bit MUX_QM1_INIT(.d0(qm1_mux_shift_out), .d1(1'b0), .sel(init), .y(in_Qm1));
 
-    // MUX pentru M (el sta pe loc tot algoritmul, se incarca doar la init)
     mux2to1_8bit MUX_M_INIT  (.d0(out_M), .d1(M_in), .sel(init), .y(in_M));
 
-    // ====================================================
-    // 4. BANCUL DE REGISTRE (INSTANTIERE STRUCTURALA)
-    // ====================================================
     reg8bit REG_A   (.clk(clk), .rst(rst), .d(in_A),   .q(out_A));
     reg8bit REG_M   (.clk(clk), .rst(rst), .d(in_M),   .q(out_M));
     reg8bit REG_Q   (.clk(clk), .rst(rst), .d(in_Q),   .q(out_Q));
     reg1bit REG_QM1 (.clk(clk), .rst(rst), .d(in_Qm1), .q(out_Qm1));
 
-    // ====================================================
-    // IE?IRILE C?TRE CONTROL UNIT ?I EXTERIOR
-    // ====================================================
     assign q0 = out_Q[0];
     assign qm1 = out_Qm1;
-    assign Prod = {out_A, out_Q}; // Produsul final cablat
+    assign Prod = {out_A, out_Q}; // Produsul final
 
 endmodule

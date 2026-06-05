@@ -20,7 +20,7 @@ module subtractor8bit_tb;
         // Cazuri de test
         a = 8'd50;  b = 8'd20;  #10; // 50 - 20 = 30
         a = 8'd100; b = 8'd100; #10; // 100 - 100 = 0
-        a = 8'd10;  b = 8'd20;  #10; // Sc?dere cu borrow
+        a = 8'd10;  b = 8'd20;  #10; // Scadere cu borrow
         a = 8'd255; b = 8'd1;   #10;
         
     end

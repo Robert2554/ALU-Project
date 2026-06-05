@@ -5,54 +5,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	srt2_final
 
-} {} {}} D:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module srt2_ctrl
-
-Top level modules:
-	srt2_ctrl
-
-} {} {}} D:/modelsim/Proiect_ALU/Inmultire/booth_cu.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Inmultire/booth_cu.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module booth_cu
-
-Top level modules:
-	booth_cu
-
 } {} {}} D:/modelsim/Proiect_ALU/Componente/shr8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/shr8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module shr8bit
 
 Top level modules:
 	shr8bit
-
-} {} {}} D:/modelsim/Proiect_ALU/Inmultire/booth_final.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Inmultire/booth_final.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module booth_final
-
-Top level modules:
-	booth_final
-
-} {} {}} D:/modelsim/Proiect_ALU/Scadere/substractor8bit_tb.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Scadere/substractor8bit_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module subtractor8bit_tb
-
-Top level modules:
-	subtractor8bit_tb
-
-} {} {}} D:/modelsim/Proiect_ALU/Adunare/adder8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Adunare/adder8bit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module adder8bit
-
-Top level modules:
-	adder8bit
-
-} {} {}} D:/modelsim/Proiect_ALU/Inmultire/booth_dp.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Inmultire/booth_dp.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module booth_dp
-
-Top level modules:
-	booth_dp
 
 } {} {}} D:/modelsim/Proiect_ALU/Componente/xor8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/xor8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -75,19 +33,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dff
 
-} {} {}} D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v
+} {} {}} D:/modelsim/Proiect_ALU/Componente/and8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/and8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module booth_tb
+-- Compiling module and8bit
 
 Top level modules:
-	booth_tb
-
-} {} {}} D:/modelsim/Proiect_ALU/Scadere/substractor8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Scadere/substractor8bit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module subtractor8bit
-
-Top level modules:
-	subtractor8bit
+	and8bit
 
 } {} {}} D:/modelsim/Proiect_ALU/Componente/fac.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/fac.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -96,33 +47,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fac
 
-} {} {}} D:/modelsim/Proiect_ALU/Componente/and8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/and8bit.v
+} {} {}} D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module and8bit
+-- Compiling module booth_tb
 
 Top level modules:
-	and8bit
-
-} {} {}} D:/modelsim/Proiect_ALU/Impartire/srt2_dp.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Impartire/srt2_dp.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module srt2_dp
-
-Top level modules:
-	srt2_dp
-
-} {} {}} D:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module adder8bit_tb
-
-Top level modules:
-	adder8bit_tb
-
-} {} {}} D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module srt2_tb
-
-Top level modules:
-	srt2_tb
+	booth_tb
 
 } {} {}} D:/modelsim/Proiect_ALU/Componente/reg8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/reg8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -131,19 +61,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	reg8bit
 
-} {} {}} D:/modelsim/Proiect_ALU/Componente/shl8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/shl8bit.v
+} {} {}} D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module shl8bit
+-- Compiling module srt2_tb
 
 Top level modules:
-	shl8bit
-
-} {} {}} D:/modelsim/Proiect_ALU/Componente/reg1bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/reg1bit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module reg1bit
-
-Top level modules:
-	reg1bit
+	srt2_tb
 
 } {} {}} D:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -152,19 +75,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux2to1_8bit
 
+} {} {}} D:/modelsim/Proiect_ALU/Componente/reg1bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/reg1bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg1bit
+
+Top level modules:
+	reg1bit
+
 } {} {}} D:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mux2to1_1bit
 
 Top level modules:
 	mux2to1_1bit
-
-} {} {}} D:/modelsim/Proiect_ALU/ALUFinal/alu_top.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/ALUFinal/alu_top.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module alu_top
-
-Top level modules:
-	alu_top
 
 } {} {}} D:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v {1 {vlog -work work -stats=none D:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

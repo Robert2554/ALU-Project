@@ -4,7 +4,7 @@ module adder8bit (
 
     input [7:0] b,
 
-    input cin,        // Carry in (îl vei lega la 0 în ALU pentru adunare simpl?)
+    input cin,        
 
     output [7:0] sum,
 
@@ -20,7 +20,7 @@ module adder8bit (
 
 
 
-    // Legarea structural? a celor 8 FAC-uri
+    // Legarea structurala a celor 8 FAC-uri
 
     fac fa0 (.a(a[0]), .b(b[0]), .cin(cin), .sum(sum[0]), .cout(c1));
 

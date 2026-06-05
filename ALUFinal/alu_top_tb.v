@@ -41,7 +41,6 @@ module alu_top_tb;
         #100;
 
         // --- TEST 3: INMULTIRE BOOTH (7 * -3 = -21) ---
-        // Result_High:Result ar trebui sa fie FFEB (hex)
         sel = 4'd2; A = 8'd7; B = -8'd3; start = 1; #10 start = 0;
         #200; // Pauza mai mare pentru inmultire (secventiala)
 

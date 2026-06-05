@@ -16,9 +16,7 @@ module booth_cu (
     // Numele starilor (pentru a citi codul mai usor)
     localparam IDLE = 2'd0, CALC = 2'd1, DONE = 2'd2;
 
-    // ====================================================
-    // 1. BLOCUL SECVEN?IAL (Memoria St?rilor - D-Flip-Flops)
-    // ====================================================
+    // 1. BLOCUL SECVENTIAL (Memoria Starilor - D-Flip-Flops)
     always @(posedge clk or posedge rst) begin
         if (rst) begin
             state <= IDLE;
@@ -29,11 +27,8 @@ module booth_cu (
         end
     end
 
-    // ====================================================
-    // 2. BLOCUL COMBINA?IONAL (Logica de Decizie)
-    // ====================================================
+    // 2. BLOCUL COMBINATIONAL (Logica de Decizie)
     always @(*) begin
-        // Valori implicite (ca sa prevenim crearea de memorii nedorite - "latch-uri")
         next_state = state;
         next_count = count;
         init = 1'b0;
@@ -44,7 +39,7 @@ module booth_cu (
         case(state)
             IDLE: begin
                 if (start) begin
-                    init = 1'b1;         // Spunem Datapath-ului: "Incarca M_in si Q_in"
+                    init = 1'b1;         
                     next_count = 4'd8;   // Setam numaratorul pentru 8 biti
                     next_state = CALC;   // Trecem la stadiul de calcul
                 end
@@ -61,7 +56,7 @@ module booth_cu (
                         default: alu_sel = 2'b00; // 00 sau 11: Nu facem nimic matematic, doar shiftam
                     endcase
 
-                    next_count = count - 1; // Scadem pasul curent
+                    next_count = count - 1; 
                 end else begin
                     // Daca am ajuns la 0, s-au terminat cei 8 pasi
                     next_state = DONE;
@@ -69,7 +64,7 @@ module booth_cu (
             end
 
             DONE: begin
-                ready = 1'b1;      // Ridicam steagul "ready" pt ALU_top
+                ready = 1'b1;      
                 next_state = IDLE; // Ne intoarcem sa asteptam o noua inmultire
             end
             

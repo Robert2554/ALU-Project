@@ -8,15 +8,12 @@ module adder8bit_tb;
     wire [7:0] sum;
     wire cout;
 
-    // -----------------------------------------------------------
-    // 2. INSTAN?IEREA MODULULUI (Conectarea firelor la placa de baz?)
-    // (UUT = Unit Under Test)
-    // -----------------------------------------------------------
+   
     adder8bit uut (
-        .a(a),    // '.a' mic (din modul), 'A' mare (din TB)
-        .b(b),    // '.b' mic
-        .cin(cin),// '.cin' mic
-        .sum(sum),// '.sum' mic
+        .a(a),    
+        .b(b),   
+        .cin(cin),
+        .sum(sum),
         .cout(cout)
     );
 

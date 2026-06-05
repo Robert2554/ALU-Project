@@ -13,9 +13,7 @@ module alu_top (
     output reg ready          // Anunta cand rezultatul secvential e gata
 );
 
-    // ====================================================
-    // CODIFICAREA OPERATIILOR (Maparea instructiunilor)
-    // ====================================================
+    
     localparam OP_ADD = 4'd0;
     localparam OP_SUB = 4'd1;
     localparam OP_MUL = 4'd2;
@@ -38,9 +36,6 @@ module alu_top (
     wire [7:0] w_div_q, w_div_r;
     wire w_div_ready;
 
-    // ====================================================
-    // INSTANTIEREA MODULELOR TALE STRUCTURALE (Din screenshot)
-    // ====================================================
     // 1. Aritmetice
     adder8bit      U_ADD (.a(A), .b(B), .cin(1'b0), .sum(w_add), .cout(w_add_cout));
     subtractor8bit U_SUB (.a(A), .b(B), .diff(w_sub), .bout(w_sub_bout));
@@ -51,7 +46,7 @@ module alu_top (
     xor8bit U_XOR (.a(A), .b(B), .out(w_xor));
 
     // 3. Shiftere (Shiftam A cu B pozitii)
-    shl8bit U_SHL (.a(A), .sa(B[2:0]), .out(w_shl)); // Daca nu ai compilat shl8bit inca, sa o faci!
+    shl8bit U_SHL (.a(A), .sa(B[2:0]), .out(w_shl)); 
     shr8bit U_SHR (.a(A), .sa(B[2:0]), .out(w_shr));
 
     // 4. Inmultitorul Booth (Secvential)
@@ -83,7 +78,6 @@ module alu_top (
             Z <= 1'b0; N <= 1'b0; V <= 1'b0;
             mul_start <= 1'b0; div_start <= 1'b0;
         end else begin
-            // Pulsoare implicite pentru semnalele de start
             mul_start <= 1'b0;
             div_start <= 1'b0;
 
@@ -93,15 +87,14 @@ module alu_top (
                     if (start) begin
                         case (sel)
                             OP_MUL: begin
-                                mul_start <= 1'b1; // Dam trezirea la inmultitor
+                                mul_start <= 1'b1; // Pornim inmultitorul
                                 state <= WAIT_MUL;
                             end
                             OP_DIV: begin
-                                div_start <= 1'b1; // Dam trezirea la impartitor
+                                div_start <= 1'b1; // Pornim impartiroul
                                 state <= WAIT_DIV;
                             end
                             default: begin
-                                // Pt ADD, SUB, AND, OR, XOR, SHL, SHR -> e gata instant (module combinationale)
                                 state <= DONE;
                             end
                         endcase
@@ -133,11 +126,11 @@ module alu_top (
                                 Result <= w_div_q;          // Catul
                                 Result_High <= w_div_r;     // Restul
                                 end
-                        OP_AND: Result <= w_and; // Legat la modulul tau and8bit
-                        OP_OR:  Result <= w_or;  // Legat la modulul tau or8bit
-                        OP_XOR: Result <= w_xor; // Legat la modulul tau xor8bit
-                        OP_SHL: Result <= w_shl; // Legat la modulul tau shl8bit
-                        OP_SHR: Result <= w_shr; // Legat la modulul tau shr8bit
+                        OP_AND: Result <= w_and; // Legat la modulul and8bit
+                        OP_OR:  Result <= w_or;  // Legat la modulul or8bit
+                        OP_XOR: Result <= w_xor; // Legat la modulul xor8bit
+                        OP_SHL: Result <= w_shl; // Legat la modulul shl8bit
+                        OP_SHR: Result <= w_shr; // Legat la modulul shr8bit
                         default:Result <= 8'b0;
                     endcase
 

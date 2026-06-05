@@ -36,7 +36,7 @@ module srt2_ctrl (
                 if (count > 0) begin
                     calc_en = 1'b1; // Dam comanda de shiftare
                     
-                    // Decizia Non-Restoring Division
+                    
                     if (a_sign == 1'b1) 
                         alu_sel = 2'b01; // A e negativ -> ADUNA
                     else                
