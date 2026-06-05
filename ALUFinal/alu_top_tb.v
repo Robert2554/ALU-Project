@@ -33,46 +33,46 @@ module alu_top_tb;
 
         // --- TEST 1: ADUNARE (45 + 5 = 50) ---
         sel = 4'd0; A = 8'd45; B = 8'd5; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100; // Pauza fixa in loc de wait(ready)
 
         // --- TEST 2: SCADERE (10 - 15 = -5) ---
         // Rezultatul ar trebui sa fie 251 (complement fata de 2) si flag N=1
         sel = 4'd1; A = 8'd10; B = 8'd15; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
         // --- TEST 3: INMULTIRE BOOTH (7 * -3 = -21) ---
         // Result_High:Result ar trebui sa fie FFEB (hex)
         sel = 4'd2; A = 8'd7; B = -8'd3; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #200; // Pauza mai mare pentru inmultire (secventiala)
 
         // --- TEST 4: IMPARTIRE SRT-2 (100 / 3 = 33 r 1) ---
         sel = 4'd3; A = 8'd100; B = 8'd3; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #200; // Pauza mai mare pentru impartire (secventiala)
 
         // --- TEST 5: LOGIC AND (8'hAA & 8'hF0 = 8'hA0) ---
         sel = 4'd4; A = 8'hAA; B = 8'hF0; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
         // --- TEST 6: LOGIC OR (8'h55 | 8'hF0 = 8'hF5) ---
         sel = 4'd5; A = 8'h55; B = 8'hF0; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
         // --- TEST 7: LOGIC XOR (8'hAA ^ 8'h55 = 8'hFF) ---
         sel = 4'd6; A = 8'hAA; B = 8'h55; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
         // --- TEST 8: SHIFT LEFT (8'd1 << 3 = 8) ---
         sel = 4'd7; A = 8'd1; B = 8'd3; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
         // --- TEST 9: SHIFT RIGHT (8'd16 >> 2 = 4) ---
         sel = 4'd8; A = 8'd16; B = 8'd2; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
         // --- TEST OVERFLOW (120 + 10) ---
         // Depaseste 127 (limita signed pe 8 biti), V ar trebui sa fie 1
         sel = 4'd0; A = 8'd120; B = 8'd10; start = 1; #10 start = 0;
-        wait(ready); #10;
+        #100;
 
     end
 

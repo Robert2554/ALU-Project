@@ -11,7 +11,7 @@ z2
 cModel Technology
 dD:/modelsim
 vadder8bit
-Z0 !s110 1780662128
+Z0 !s110 1780664516
 !i10b 1
 !s100 H<mfho19b`oMI[08<kTI93
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -21,15 +21,15 @@ Z3 dD:/modelsim/Proiect_ALU
 w1775412767
 8D:/modelsim/Proiect_ALU/Adunare/adder8bit.v
 FD:/modelsim/Proiect_ALU/Adunare/adder8bit.v
-!i122 376
+!i122 467
 L0 1 43
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1780662128.000000
+Z5 !s108 1780664516.000000
 !s107 D:/modelsim/Proiect_ALU/Adunare/adder8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Adunare/adder8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Adunare/adder8bit.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
@@ -44,7 +44,7 @@ R3
 w1780660865
 8D:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v
 FD:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v
-!i122 377
+!i122 468
 Z8 L0 1 44
 R4
 r1
@@ -52,7 +52,7 @@ r1
 31
 R5
 !s107 D:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Adunare/adder8bit_tb.v|
 !i113 1
 R6
 R7
@@ -80,7 +80,7 @@ r1
 R6
 R7
 valu_top
-Z10 !s110 1780662129
+Z10 !s110 1780664521
 !i10b 1
 !s100 nf6fBAoJPo5WgNZ[]hZRV3
 R1
@@ -90,43 +90,43 @@ R3
 w1776499568
 8D:/modelsim/Proiect_ALU/ALUFinal/alu_top.v
 FD:/modelsim/Proiect_ALU/ALUFinal/alu_top.v
-!i122 378
+!i122 479
 L0 1 170
 R4
 r1
 !s85 0
 31
-Z11 !s108 1780662129.000000
+Z11 !s108 1780664520.000000
 !s107 D:/modelsim/Proiect_ALU/ALUFinal/alu_top.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/ALUFinal/alu_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/ALUFinal/alu_top.v|
 !i113 1
 R6
 R7
 valu_top_tb
 R10
 !i10b 1
-!s100 hAF>f0OAlN1giANSJ>QaZ3
+!s100 ZmJA=6JA<L16>QIUjNB<]2
 R1
-IPIP=mfczQAT6zzY5BdhI41
+I7>YFZNI8Q4Li4LHaoBIi00
 R2
 R3
-w1776499980
+w1780664402
 8D:/modelsim/Proiect_ALU/ALUFinal/alu_top_tb.v
 FD:/modelsim/Proiect_ALU/ALUFinal/alu_top_tb.v
-!i122 379
+!i122 480
 L0 3 77
 R4
 r1
 !s85 0
 31
-R11
+!s108 1780664521.000000
 !s107 D:/modelsim/Proiect_ALU/ALUFinal/alu_top_tb.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/ALUFinal/alu_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/ALUFinal/alu_top_tb.v|
 !i113 1
 R6
 R7
 vand8bit
-Z12 !s110 1780662130
+!s110 1780664511
 !i10b 1
 !s100 @7[JKDjKmDMebI?Va6CCD0
 R1
@@ -136,20 +136,20 @@ R3
 w1776500139
 8D:/modelsim/Proiect_ALU/Componente/and8bit.v
 FD:/modelsim/Proiect_ALU/Componente/and8bit.v
-!i122 380
-Z13 L0 1 3
+!i122 455
+Z12 L0 1 3
 R4
 r1
 !s85 0
 31
-R11
+Z13 !s108 1780664511.000000
 !s107 D:/modelsim/Proiect_ALU/Componente/and8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/and8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/and8bit.v|
 !i113 1
 R6
 R7
 vbooth_cu
-Z14 !s110 1780662136
+Z14 !s110 1780664517
 !i10b 1
 !s100 :`N>f0;i9Oe;W6;HjPk630
 R1
@@ -159,20 +159,20 @@ R3
 w1775484988
 8D:/modelsim/Proiect_ALU/Inmultire/booth_cu.v
 FD:/modelsim/Proiect_ALU/Inmultire/booth_cu.v
-!i122 396
+!i122 471
 L0 1 79
 R4
 r1
 !s85 0
 31
-Z15 !s108 1780662135.000000
+Z15 !s108 1780664517.000000
 !s107 D:/modelsim/Proiect_ALU/Inmultire/booth_cu.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Inmultire/booth_cu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Inmultire/booth_cu.v|
 !i113 1
 R6
 R7
 vbooth_dp
-R14
+Z16 !s110 1780664518
 !i10b 1
 !s100 ]a?]o3Enz;NKhLDlB9W>]2
 R1
@@ -182,20 +182,20 @@ R3
 w1775485729
 8D:/modelsim/Proiect_ALU/Inmultire/booth_dp.v
 FD:/modelsim/Proiect_ALU/Inmultire/booth_dp.v
-!i122 397
+!i122 472
 L0 1 85
 R4
 r1
 !s85 0
 31
-Z16 !s108 1780662136.000000
+Z17 !s108 1780664518.000000
 !s107 D:/modelsim/Proiect_ALU/Inmultire/booth_dp.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Inmultire/booth_dp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Inmultire/booth_dp.v|
 !i113 1
 R6
 R7
 vbooth_final
-R14
+R16
 !i10b 1
 !s100 <4AW[RC=hlB@j4U7NRFYC0
 R1
@@ -205,20 +205,20 @@ R3
 w1775485236
 8D:/modelsim/Proiect_ALU/Inmultire/booth_final.v
 FD:/modelsim/Proiect_ALU/Inmultire/booth_final.v
-!i122 398
+!i122 473
 L0 1 51
 R4
 r1
 !s85 0
 31
-R16
+R17
 !s107 D:/modelsim/Proiect_ALU/Inmultire/booth_final.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Inmultire/booth_final.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Inmultire/booth_final.v|
 !i113 1
 R6
 R7
 vbooth_tb
-Z17 !s110 1780662137
+Z18 !s110 1780664519
 !i10b 1
 !s100 =A1n8mP8aSZmU0N6:WGeB3
 R1
@@ -228,20 +228,20 @@ R3
 w1775485191
 8D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v
 FD:/modelsim/Proiect_ALU/Inmultire/booth_tb.v
-!i122 399
+!i122 474
 L0 3 61
 R4
 r1
 !s85 0
 31
-Z18 !s108 1780662137.000000
+R17
 !s107 D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Inmultire/booth_tb.v|
 !i113 1
 R6
 R7
 vdff
-R12
+Z19 !s110 1780664512
 !i10b 1
 !s100 ?ne1b<2OG>SQFDAl:;zg62
 R1
@@ -251,20 +251,20 @@ R3
 w1775412710
 8D:/modelsim/Proiect_ALU/Componente/dff.v
 FD:/modelsim/Proiect_ALU/Componente/dff.v
-!i122 381
-Z19 L0 1 15
+!i122 456
+Z20 L0 1 15
 R4
 r1
 !s85 0
 31
-Z20 !s108 1780662130.000000
+R13
 !s107 D:/modelsim/Proiect_ALU/Componente/dff.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/dff.v|
 !i113 1
 R6
 R7
 vfac
-R12
+R19
 !i10b 1
 !s100 ABC7`83@^4jOC92dRCKLU2
 R1
@@ -274,20 +274,20 @@ R3
 w1775412746
 8D:/modelsim/Proiect_ALU/Componente/fac.v
 FD:/modelsim/Proiect_ALU/Componente/fac.v
-!i122 382
+!i122 457
 Z21 L0 1 6
 R4
 r1
 !s85 0
 31
-R20
+Z22 !s108 1780664512.000000
 !s107 D:/modelsim/Proiect_ALU/Componente/fac.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/fac.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/fac.v|
 !i113 1
 R6
 R7
 vmux2to1_1bit
-Z22 !s110 1780662131
+R19
 !i10b 1
 !s100 hmch1^SeanAWOkDQBAzk:2
 R1
@@ -297,20 +297,20 @@ R3
 w1775484486
 8D:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v
 FD:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v
-!i122 383
+!i122 458
 Z23 L0 1 8
 R4
 r1
 !s85 0
 31
-Z24 !s108 1780662131.000000
+R22
 !s107 D:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/mux2to1_1bit.v|
 !i113 1
 R6
 R7
 vmux2to1_8bit
-R22
+Z24 !s110 1780664513
 !i10b 1
 !s100 _5A6mM^VV<PH0h2I2Z2?b0
 R1
@@ -320,20 +320,20 @@ R3
 w1775484509
 8D:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v
 FD:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v
-!i122 384
+!i122 459
 R23
 R4
 r1
 !s85 0
 31
-R24
+Z25 !s108 1780664513.000000
 !s107 D:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/mux2to1_8bit.v|
 !i113 1
 R6
 R7
 vmux4to1_8bit
-Z25 !s110 1780662132
+R24
 !i10b 1
 !s100 z2UPOM>oDMj^OkT[GG`Ed3
 R1
@@ -343,20 +343,20 @@ R3
 w1775484531
 8D:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v
 FD:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v
-!i122 385
+!i122 460
 L0 1 12
 R4
 r1
 !s85 0
 31
-R24
+R25
 !s107 D:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/mux4to1_8bit.v|
 !i113 1
 R6
 R7
 vor8bit
-R25
+Z26 !s110 1780664514
 !i10b 1
 !s100 5h]G?XXC>8KZRE89I4dS21
 R1
@@ -366,20 +366,20 @@ R3
 w1776500151
 8D:/modelsim/Proiect_ALU/Componente/or8bit.v
 FD:/modelsim/Proiect_ALU/Componente/or8bit.v
-!i122 386
-R13
+!i122 461
+R12
 R4
 r1
 !s85 0
 31
-Z26 !s108 1780662132.000000
+R25
 !s107 D:/modelsim/Proiect_ALU/Componente/or8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/or8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/or8bit.v|
 !i113 1
 R6
 R7
 vreg1bit
-R25
+R26
 !i10b 1
 !s100 AS1`2c8nVTd=GKb06n6Hz2
 R1
@@ -389,20 +389,20 @@ R3
 w1775485933
 8D:/modelsim/Proiect_ALU/Componente/reg1bit.v
 FD:/modelsim/Proiect_ALU/Componente/reg1bit.v
-!i122 387
+!i122 462
 R23
 R4
 r1
 !s85 0
 31
-R26
+Z27 !s108 1780664514.000000
 !s107 D:/modelsim/Proiect_ALU/Componente/reg1bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/reg1bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/reg1bit.v|
 !i113 1
 R6
 R7
 vreg8bit
-Z27 !s110 1780662133
+R26
 !i10b 1
 !s100 4T?=EYL`WhTW>^9dWPVNz0
 R1
@@ -412,20 +412,20 @@ R3
 w1775485919
 8D:/modelsim/Proiect_ALU/Componente/reg8bit.v
 FD:/modelsim/Proiect_ALU/Componente/reg8bit.v
-!i122 388
-R19
+!i122 463
+R20
 R4
 r1
 !s85 0
 31
-R26
+R27
 !s107 D:/modelsim/Proiect_ALU/Componente/reg8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/reg8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/reg8bit.v|
 !i113 1
 R6
 R7
 vshl8bit
-R27
+Z28 !s110 1780664515
 !i10b 1
 !s100 9YjcmWYB[YY>L]5nmG3L<0
 R1
@@ -435,20 +435,20 @@ R3
 w1776499628
 8D:/modelsim/Proiect_ALU/Componente/shl8bit.v
 FD:/modelsim/Proiect_ALU/Componente/shl8bit.v
-!i122 389
+!i122 464
 L0 1 10
 R4
 r1
 !s85 0
 31
-Z28 !s108 1780662133.000000
+Z29 !s108 1780664515.000000
 !s107 D:/modelsim/Proiect_ALU/Componente/shl8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/shl8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/shl8bit.v|
 !i113 1
 R6
 R7
 vshr8bit
-R27
+R28
 !i10b 1
 !s100 0O;O_BQ3KmoAV9Rc4ln2T0
 R1
@@ -458,20 +458,20 @@ R3
 w1775485591
 8D:/modelsim/Proiect_ALU/Componente/shr8bit.v
 FD:/modelsim/Proiect_ALU/Componente/shr8bit.v
-!i122 390
+!i122 465
 L0 1 7
 R4
 r1
 !s85 0
 31
-R28
+R29
 !s107 D:/modelsim/Proiect_ALU/Componente/shr8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/shr8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/shr8bit.v|
 !i113 1
 R6
 R7
 vsrt2_ctrl
-Z29 !s110 1780662134
+R18
 !i10b 1
 !s100 D@69EmK1k_gH1^H^hbHAg2
 R1
@@ -481,20 +481,20 @@ R3
 w1776499149
 8D:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v
 FD:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v
-!i122 392
+!i122 475
 L0 1 67
 R4
 r1
 !s85 0
 31
-Z30 !s108 1780662134.000000
+Z30 !s108 1780664519.000000
 !s107 D:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Impartire/srt2_ctrl.v|
 !i113 1
 R6
 R7
 vsrt2_dp
-R29
+R18
 !i10b 1
 !s100 So<JLI@:XeXc]AAg9LlEO3
 R1
@@ -504,7 +504,7 @@ R3
 w1776499129
 8D:/modelsim/Proiect_ALU/Impartire/srt2_dp.v
 FD:/modelsim/Proiect_ALU/Impartire/srt2_dp.v
-!i122 393
+!i122 476
 L0 1 78
 R4
 r1
@@ -512,12 +512,12 @@ r1
 31
 R30
 !s107 D:/modelsim/Proiect_ALU/Impartire/srt2_dp.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Impartire/srt2_dp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Impartire/srt2_dp.v|
 !i113 1
 R6
 R7
 vsrt2_final
-Z31 !s110 1780662135
+Z31 !s110 1780664520
 !i10b 1
 !s100 Oa?Ud`eKcakDAiAaUREMk2
 R1
@@ -527,15 +527,15 @@ R3
 w1776499169
 8D:/modelsim/Proiect_ALU/Impartire/srt2_final.v
 FD:/modelsim/Proiect_ALU/Impartire/srt2_final.v
-!i122 394
+!i122 477
 L0 1 29
 R4
 r1
 !s85 0
 31
-R15
+R11
 !s107 D:/modelsim/Proiect_ALU/Impartire/srt2_final.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Impartire/srt2_final.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Impartire/srt2_final.v|
 !i113 1
 R6
 R7
@@ -550,20 +550,20 @@ R3
 w1776499225
 8D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v
 FD:/modelsim/Proiect_ALU/Impartire/srt2_tb.v
-!i122 395
+!i122 478
 L0 3 66
 R4
 r1
 !s85 0
 31
-R15
+R11
 !s107 D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Impartire/srt2_tb.v|
 !i113 1
 R6
 R7
 vsubtractor8bit
-R17
+R14
 !i10b 1
 !s100 b6:JbY];UP;A@XV88CXH43
 R1
@@ -573,20 +573,43 @@ R3
 w1775413302
 8D:/modelsim/Proiect_ALU/Scadere/substractor8bit.v
 FD:/modelsim/Proiect_ALU/Scadere/substractor8bit.v
-!i122 400
+!i122 469
 L0 1 21
 R4
 r1
 !s85 0
 31
-R18
+R15
 !s107 D:/modelsim/Proiect_ALU/Scadere/substractor8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Scadere/substractor8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Scadere/substractor8bit.v|
+!i113 1
+R6
+R7
+vsubtractor8bit_tb
+R14
+!i10b 1
+!s100 jT]M[a@jUCP3KL>2JlQ:53
+R1
+I^JY=1@08kWOE_kG9ma_2J0
+R2
+R3
+w1780663571
+8D:/modelsim/Proiect_ALU/Scadere/substractor8bit_tb.v
+FD:/modelsim/Proiect_ALU/Scadere/substractor8bit_tb.v
+!i122 470
+L0 3 26
+R4
+r1
+!s85 0
+31
+R15
+!s107 D:/modelsim/Proiect_ALU/Scadere/substractor8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Scadere/substractor8bit_tb.v|
 !i113 1
 R6
 R7
 vxor8bit
-R29
+R28
 !i10b 1
 !s100 `OnMT`CaXEQfzNo?X4LQ72
 R1
@@ -596,15 +619,15 @@ R3
 w1776500164
 8D:/modelsim/Proiect_ALU/Componente/xor8bit.v
 FD:/modelsim/Proiect_ALU/Componente/xor8bit.v
-!i122 391
-R13
+!i122 466
+R12
 R4
 r1
 !s85 0
 31
-R30
+R29
 !s107 D:/modelsim/Proiect_ALU/Componente/xor8bit.v|
-!s90 -reportprogress|300|-work|work|D:/modelsim/Proiect_ALU/Componente/xor8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim/Proiect_ALU/Componente/xor8bit.v|
 !i113 1
 R6
 R7
